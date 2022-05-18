@@ -19,6 +19,93 @@ class _Page1State extends State<Page1> {
         centerTitle: true,
       ),
 
+      drawer: Drawer(
+        backgroundColor: Colors.black54,
+        child: ListView(
+          children: <Widget> [
+            new UserAccountsDrawerHeader(
+              accountName: Text('Jean-Philippe KOUADIO'),
+               accountEmail: Text('lordjeepy@gmail.com'),
+               currentAccountPicture:  GestureDetector(                                                                                                                                                                                                                                                         
+                 child: CircleAvatar(
+                   backgroundColor: Colors.white,
+                 child: Icon(Icons.person,
+                 color: Colors.black,
+                 ),
+                 ),
+
+               ),
+               ),
+               InkWell(
+                 onTap: ()  {
+                    
+                 },
+                 child: ListTile(
+                   title : 
+                  new Text("PROGRAMMATION WEB", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  leading: Icon(Icons.money, color: Colors.amber,),
+                 )
+                 
+               ),
+               Divider(
+                 color: Colors.white,
+                
+               ),
+               InkWell(
+                 onTap: ()  {},
+                 child: ListTile(
+                   title : 
+                  new Text("PROGRAMMATION MOBILE", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  leading: Icon(Icons.money, color: Colors.amber,),
+                 )
+                 
+               ),
+               Divider(
+                 color: Colors.white,
+                
+               ),
+               InkWell(
+                 onTap: ()  {},
+                 child: ListTile(
+                   title : 
+                  new Text("SECURITE INFORMATIQUE", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  leading: Icon(Icons.money, color: Colors.amber,),
+                 )
+                 
+               ),
+               Divider(
+                 color: Colors.white,
+                
+               ),
+               InkWell(
+                 onTap: ()  {},
+                 child: ListTile(
+                   title : 
+                  new Text("INFOGRAPHIE", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  leading: Icon(Icons.money, color: Colors.amber,),
+                 )
+                 
+               ),
+               Divider(
+                 color: Colors.white,
+                
+               ),
+               InkWell(
+                 onTap: ()  {},
+                 child: ListTile(
+                   title : 
+                  new Text("COMMUNICATION DIGITALE", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  leading: Icon(Icons.money, color: Colors.amber,),
+                 )
+                 
+               ),
+               
+
+          ],
+        ),
+      ),
+        
+
 
       body: Center(
         child: Column(

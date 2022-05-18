@@ -42,7 +42,7 @@ class _Page1State extends State<Page1> {
                  },
                  child: ListTile(
                    title : 
-                  new Text("PROGRAMMATION WEB", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  new Text("MON COMPTE", style: TextStyle(fontSize: 15, color: Colors.white),),
                   leading: Icon(Icons.money, color: Colors.amber,),
                  )
                  
@@ -55,7 +55,7 @@ class _Page1State extends State<Page1> {
                  onTap: ()  {},
                  child: ListTile(
                    title : 
-                  new Text("PROGRAMMATION MOBILE", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  new Text("MES TRANSACTIONS", style: TextStyle(fontSize: 15, color: Colors.white),),
                   leading: Icon(Icons.money, color: Colors.amber,),
                  )
                  
@@ -68,7 +68,7 @@ class _Page1State extends State<Page1> {
                  onTap: ()  {},
                  child: ListTile(
                    title : 
-                  new Text("SECURITE INFORMATIQUE", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  new Text("INFORMATIONS PERSONNELLES", style: TextStyle(fontSize: 15, color: Colors.white),),
                   leading: Icon(Icons.money, color: Colors.amber,),
                  )
                  
@@ -83,7 +83,7 @@ class _Page1State extends State<Page1> {
                    title : 
                   new Text("INFOGRAPHIE", style: TextStyle(fontSize: 15, color: Colors.white),),
                   leading: Icon(Icons.money, color: Colors.amber,),
-                 )
+                 ),
                  
                ),
                Divider(
@@ -94,7 +94,7 @@ class _Page1State extends State<Page1> {
                  onTap: ()  {},
                  child: ListTile(
                    title : 
-                  new Text("COMMUNICATION DIGITALE", style: TextStyle(fontSize: 15, color: Colors.white),),
+                  new Text("SERVICE CLIENTELE", style: TextStyle(fontSize: 15, color: Colors.white),),
                   leading: Icon(Icons.money, color: Colors.amber,),
                  )
                  

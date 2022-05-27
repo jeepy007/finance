@@ -115,6 +115,64 @@ class _Page1State extends State<Page1> {
               
               child: Image.asset('assets/images/finance2.jpeg')
               ),
+               Text("INSCRIPTION", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+                    SizedBox(height: 20,),
+                    TextFormField(
+                      decoration: InputDecoration(
+                        labelText: 'Nom',
+                        border: OutlineInputBorder()
+                      ),
+                    ),
+                    SizedBox(height: 20,),
+                    TextFormField(
+                      decoration: InputDecoration(
+                        labelText: 'Prenoms',
+                        border: OutlineInputBorder()
+                      ),
+                      
+                    ),
+                    SizedBox(height: 20),
+                    TextFormField(
+                      obscureText: true,
+                      decoration: InputDecoration(
+                        labelText: 'Mot de Passe',
+                        border: OutlineInputBorder(),
+                        
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                     TextFormField(
+                       obscureText: true,
+                      decoration: InputDecoration(
+                        labelText: 'Confirmer mot de passe',
+                        border: OutlineInputBorder()
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                     TextFormField(
+                      decoration: InputDecoration(
+                        labelText: 'Email',
+                        border: OutlineInputBorder()
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    ElevatedButton(onPressed: (() {
+
+
+                      
+                    }), 
+                    child:Text("Valider")
+                    ),
+                    SizedBox(height: 20),
+                    OutlineButton(
+                    
+                      onPressed: (() {
+                      
+                    }), child: Text('Créer un compte'))
+
+
+
+
 
         ]),
       ),
